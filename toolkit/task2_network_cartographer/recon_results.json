@@ -1,0 +1,41 @@
+{
+  "target": "172.16.19.200",
+  "open_ports": [
+    {
+      "port": 21,
+      "banner": "220 ProFTPD 1.3.5 Server (ProFTPD Default Installation) [172.16.19.200]\r\n500 Invalid command: try being more creative"
+    },
+    {
+      "port": 22,
+      "banner": "SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13\r\nProtocol mismatch."
+    },
+    {
+      "port": 80,
+      "banner": "HTTP/1.1 400 Bad Request\r\nDate: Fri, 24 Apr 2026 13:45:10 GMT\r\nServer: Apache/2.4.7 (Ubuntu)\r\nContent-Length: 300\r\nConnection: close\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>400 Bad Request</title>\n</head><body>\n<h1>Bad Request</h1>\n<p>Your browser sent a request that this server could not understand.<br />\n</p>\n<hr>\n<address>Apache/2.4.7 (Ubuntu) Server at 127.0.1.1 Port 80</address>\n</body></html>"
+    },
+    {
+      "port": 445,
+      "banner": ""
+    },
+    {
+      "port": 631,
+      "banner": ""
+    },
+    {
+      "port": 3306,
+      "banner": "E\u0000\u0000\u0000j\u0004Host '172.16.19.10' is not allowed to connect to this MySQL server"
+    },
+    {
+      "port": 3500,
+      "banner": "HTTP/1.1 400 Bad Request \r\nContent-Type: text/html; charset=ISO-8859-1\r\nServer: WEBrick/1.3.1 (Ruby/2.3.8/2018-10-18)\r\nDate: Fri, 24 Apr 2026 13:45:19 GMT\r\nContent-Length: 281\r\nConnection: close\r\n\r\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\">\n<HTML>\n  <HEAD><TITLE>Bad Request</TITLE></HEAD>\n  <BODY>\n    <H1>Bad Request</H1>\n    bad Request-Line `'.\n    <HR>\n    <ADDRESS>\n     WEBrick/1.3.1 (Ruby/2.3.8/2018-10-18) at\n     apex-node7:3500\n    </ADDRESS>\n  </BODY>\n</HTML>"
+    },
+    {
+      "port": 6697,
+      "banner": ":irc.TestIRC.net NOTICE AUTH :*** Looking up your hostname...\r\n:irc.TestIRC.net NOTICE AUTH :*** Couldn't resolve your hostname; using your IP address instead"
+    },
+    {
+      "port": 8080,
+      "banner": ""
+    }
+  ]
+}

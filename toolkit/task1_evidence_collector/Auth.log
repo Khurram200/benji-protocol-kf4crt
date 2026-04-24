@@ -1,0 +1,766 @@
+Apr 21 09:31:32 apex-node7 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 09:32:58 apex-node7 sudo:  vagrant : TTY=pts/4 ; PWD=/tmp ; USER=root ; COMMAND=/sbin/shutdown -h now
+Apr 21 09:32:58 apex-node7 sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Apr 21 09:32:58 apex-node7 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 13:11:53 apex-node7 sudo:     root : TTY=unknown ; PWD=/ ; USER=chewbacca ; COMMAND=/opt/readme_app/start.sh
+Apr 24 13:11:53 apex-node7 sudo: pam_unix(sudo:session): session opened for user chewbacca by (uid=0)
+Apr 24 13:11:53 apex-node7 sshd[1076]: Server listening on 0.0.0.0 port 22.
+Apr 24 13:11:53 apex-node7 sshd[1076]: Server listening on :: port 22.
+Apr 24 13:11:53 apex-node7 su[1137]: Successful su for dirmngr by root
+Apr 24 13:11:53 apex-node7 su[1137]: + /dev/console root:dirmngr
+Apr 24 13:11:53 apex-node7 su[1137]: pam_unix(su:session): session opened for user dirmngr by (uid=0)
+Apr 24 13:11:53 apex-node7 su[1137]: pam_unix(su:session): session closed for user dirmngr
+Apr 24 13:11:54 apex-node7 sudo:     root : TTY=unknown ; PWD=/ ; USER=boba_fett ; COMMAND=/opt/unrealircd/Unreal3.2/unreal start
+Apr 24 13:11:54 apex-node7 sudo: pam_unix(sudo:session): session opened for user boba_fett by (uid=0)
+Apr 24 13:11:55 apex-node7 sudo: pam_unix(sudo:session): session closed for user boba_fett
+Apr 24 13:15:34 apex-node7 sshd[1826]: Bad protocol version identification '' from 172.16.19.10 port 35490
+Apr 24 13:17:01 apex-node7 CRON[1828]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 13:17:01 apex-node7 CRON[1828]: pam_unix(cron:session): session closed for user root
+Apr 24 13:25:33 apex-node7 sshd[1833]: Bad protocol version identification '' from 172.16.19.10 port 58068
+Apr 24 13:32:38 apex-node7 sshd[1841]: Bad protocol version identification '' from 172.16.19.10 port 59834
+Apr 24 13:38:45 apex-node7 sshd[1846]: Bad protocol version identification '' from 172.16.19.10 port 36666
+Apr 24 13:43:24 apex-node7 sshd[1856]: Bad protocol version identification '' from 172.16.19.10 port 45642
+Apr 24 13:45:10 apex-node7 sshd[1862]: Bad protocol version identification '' from 172.16.19.10 port 41834
+Apr 24 13:52:13 apex-node7 sshd[1870]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:16 apex-node7 sshd[1870]: Failed password for s.lane from 172.16.19.10 port 60538 ssh2
+Apr 24 13:52:16 apex-node7 sshd[1870]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:16 apex-node7 sshd[1872]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:18 apex-node7 sshd[1872]: Failed password for s.lane from 172.16.19.10 port 60548 ssh2
+Apr 24 13:52:18 apex-node7 sshd[1872]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:18 apex-node7 sshd[1874]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:21 apex-node7 sshd[1874]: Failed password for s.lane from 172.16.19.10 port 60554 ssh2
+Apr 24 13:52:21 apex-node7 sshd[1874]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:21 apex-node7 sshd[1876]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:23 apex-node7 sshd[1876]: Failed password for s.lane from 172.16.19.10 port 60570 ssh2
+Apr 24 13:52:23 apex-node7 sshd[1876]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:23 apex-node7 sshd[1878]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:25 apex-node7 sshd[1878]: Failed password for s.lane from 172.16.19.10 port 59196 ssh2
+Apr 24 13:52:25 apex-node7 sshd[1878]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:25 apex-node7 sshd[1881]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:28 apex-node7 sshd[1881]: Failed password for s.lane from 172.16.19.10 port 59206 ssh2
+Apr 24 13:52:28 apex-node7 sshd[1881]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:28 apex-node7 sshd[1883]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:30 apex-node7 sshd[1883]: Failed password for s.lane from 172.16.19.10 port 59216 ssh2
+Apr 24 13:52:30 apex-node7 sshd[1883]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:30 apex-node7 sshd[1885]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:32 apex-node7 sshd[1885]: Failed password for s.lane from 172.16.19.10 port 59228 ssh2
+Apr 24 13:52:32 apex-node7 sshd[1885]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:33 apex-node7 sshd[1887]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:34 apex-node7 sshd[1887]: Failed password for s.lane from 172.16.19.10 port 37932 ssh2
+Apr 24 13:52:34 apex-node7 sshd[1887]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:35 apex-node7 sshd[1889]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:36 apex-node7 sshd[1889]: Failed password for s.lane from 172.16.19.10 port 37936 ssh2
+Apr 24 13:52:36 apex-node7 sshd[1889]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:36 apex-node7 sshd[1892]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:39 apex-node7 sshd[1892]: Failed password for s.lane from 172.16.19.10 port 37940 ssh2
+Apr 24 13:52:39 apex-node7 sshd[1892]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:39 apex-node7 sshd[1894]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:41 apex-node7 sshd[1894]: Failed password for s.lane from 172.16.19.10 port 37952 ssh2
+Apr 24 13:52:41 apex-node7 sshd[1894]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:42 apex-node7 sshd[1896]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:44 apex-node7 sshd[1896]: Failed password for s.lane from 172.16.19.10 port 37954 ssh2
+Apr 24 13:52:44 apex-node7 sshd[1896]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:44 apex-node7 sshd[1898]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:45 apex-node7 sshd[1898]: Failed password for s.lane from 172.16.19.10 port 52740 ssh2
+Apr 24 13:52:45 apex-node7 sshd[1898]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:46 apex-node7 sshd[1900]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:47 apex-node7 sshd[1900]: Failed password for s.lane from 172.16.19.10 port 52748 ssh2
+Apr 24 13:52:47 apex-node7 sshd[1900]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:47 apex-node7 sshd[1902]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:49 apex-node7 sshd[1902]: Failed password for s.lane from 172.16.19.10 port 52758 ssh2
+Apr 24 13:52:49 apex-node7 sshd[1902]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:49 apex-node7 sshd[1904]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:52 apex-node7 sshd[1904]: Failed password for s.lane from 172.16.19.10 port 52764 ssh2
+Apr 24 13:52:52 apex-node7 sshd[1904]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:52 apex-node7 sshd[1906]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:54 apex-node7 sshd[1906]: Failed password for s.lane from 172.16.19.10 port 36290 ssh2
+Apr 24 13:52:54 apex-node7 sshd[1906]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:54 apex-node7 sshd[1908]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:57 apex-node7 sshd[1908]: Failed password for s.lane from 172.16.19.10 port 36292 ssh2
+Apr 24 13:52:57 apex-node7 sshd[1908]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:57 apex-node7 sshd[1910]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:52:59 apex-node7 sshd[1910]: Failed password for s.lane from 172.16.19.10 port 36296 ssh2
+Apr 24 13:52:59 apex-node7 sshd[1910]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:52:59 apex-node7 sshd[1913]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:01 apex-node7 sshd[1913]: Failed password for s.lane from 172.16.19.10 port 36302 ssh2
+Apr 24 13:53:01 apex-node7 sshd[1913]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:01 apex-node7 sshd[1915]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:03 apex-node7 sshd[1915]: Failed password for s.lane from 172.16.19.10 port 36304 ssh2
+Apr 24 13:53:04 apex-node7 sshd[1915]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:04 apex-node7 sshd[1917]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:06 apex-node7 sshd[1917]: Failed password for s.lane from 172.16.19.10 port 56138 ssh2
+Apr 24 13:53:06 apex-node7 sshd[1917]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:06 apex-node7 sshd[1919]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:08 apex-node7 sshd[1919]: Failed password for s.lane from 172.16.19.10 port 56146 ssh2
+Apr 24 13:53:08 apex-node7 sshd[1919]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:08 apex-node7 sshd[1921]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:10 apex-node7 sshd[1921]: Failed password for s.lane from 172.16.19.10 port 56156 ssh2
+Apr 24 13:53:10 apex-node7 sshd[1921]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:10 apex-node7 sshd[1923]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:12 apex-node7 sshd[1923]: Failed password for s.lane from 172.16.19.10 port 56164 ssh2
+Apr 24 13:53:12 apex-node7 sshd[1923]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:12 apex-node7 sshd[1925]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:14 apex-node7 sshd[1925]: Failed password for s.lane from 172.16.19.10 port 36356 ssh2
+Apr 24 13:53:15 apex-node7 sshd[1925]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:15 apex-node7 sshd[1927]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:17 apex-node7 sshd[1927]: Failed password for s.lane from 172.16.19.10 port 36368 ssh2
+Apr 24 13:53:17 apex-node7 sshd[1927]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:17 apex-node7 sshd[1929]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:19 apex-node7 sshd[1929]: Failed password for s.lane from 172.16.19.10 port 36382 ssh2
+Apr 24 13:53:19 apex-node7 sshd[1929]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:19 apex-node7 sshd[1931]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:21 apex-node7 sshd[1931]: Failed password for s.lane from 172.16.19.10 port 36384 ssh2
+Apr 24 13:53:21 apex-node7 sshd[1931]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:22 apex-node7 sshd[1933]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:23 apex-node7 sshd[1933]: Failed password for s.lane from 172.16.19.10 port 36388 ssh2
+Apr 24 13:53:23 apex-node7 sshd[1933]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:23 apex-node7 sshd[1935]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:26 apex-node7 sshd[1935]: Failed password for s.lane from 172.16.19.10 port 38368 ssh2
+Apr 24 13:53:26 apex-node7 sshd[1935]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:26 apex-node7 sshd[1937]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:28 apex-node7 sshd[1937]: Failed password for s.lane from 172.16.19.10 port 38370 ssh2
+Apr 24 13:53:28 apex-node7 sshd[1937]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:28 apex-node7 sshd[1939]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:30 apex-node7 sshd[1939]: Failed password for s.lane from 172.16.19.10 port 38382 ssh2
+Apr 24 13:53:30 apex-node7 sshd[1939]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:30 apex-node7 sshd[1941]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:32 apex-node7 sshd[1941]: Failed password for s.lane from 172.16.19.10 port 38392 ssh2
+Apr 24 13:53:32 apex-node7 sshd[1941]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:33 apex-node7 sshd[1943]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:34 apex-node7 sshd[1943]: Failed password for s.lane from 172.16.19.10 port 56060 ssh2
+Apr 24 13:53:34 apex-node7 sshd[1943]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:34 apex-node7 sshd[1945]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:36 apex-node7 sshd[1945]: Failed password for s.lane from 172.16.19.10 port 56068 ssh2
+Apr 24 13:53:36 apex-node7 sshd[1945]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:36 apex-node7 sshd[1947]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:38 apex-node7 sshd[1947]: Failed password for s.lane from 172.16.19.10 port 56070 ssh2
+Apr 24 13:53:39 apex-node7 sshd[1947]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:39 apex-node7 sshd[1949]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:40 apex-node7 sshd[1949]: Failed password for s.lane from 172.16.19.10 port 56074 ssh2
+Apr 24 13:53:41 apex-node7 sshd[1949]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:41 apex-node7 sshd[1951]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:42 apex-node7 sshd[1951]: Failed password for s.lane from 172.16.19.10 port 56086 ssh2
+Apr 24 13:53:43 apex-node7 sshd[1951]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:43 apex-node7 sshd[1953]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:45 apex-node7 sshd[1953]: Failed password for s.lane from 172.16.19.10 port 51662 ssh2
+Apr 24 13:53:45 apex-node7 sshd[1953]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:45 apex-node7 sshd[1955]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:46 apex-node7 sshd[1955]: Failed password for s.lane from 172.16.19.10 port 51670 ssh2
+Apr 24 13:53:46 apex-node7 sshd[1955]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:46 apex-node7 sshd[1957]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:48 apex-node7 sshd[1957]: Failed password for s.lane from 172.16.19.10 port 51678 ssh2
+Apr 24 13:53:48 apex-node7 sshd[1957]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:48 apex-node7 sshd[1959]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:51 apex-node7 sshd[1959]: Failed password for s.lane from 172.16.19.10 port 51688 ssh2
+Apr 24 13:53:51 apex-node7 sshd[1959]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:51 apex-node7 sshd[1961]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:53 apex-node7 sshd[1961]: Failed password for s.lane from 172.16.19.10 port 51690 ssh2
+Apr 24 13:53:53 apex-node7 sshd[1961]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:53 apex-node7 sshd[1963]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:55 apex-node7 sshd[1963]: Failed password for s.lane from 172.16.19.10 port 38830 ssh2
+Apr 24 13:53:55 apex-node7 sshd[1963]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:55 apex-node7 sshd[1965]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:57 apex-node7 sshd[1965]: Failed password for s.lane from 172.16.19.10 port 38844 ssh2
+Apr 24 13:53:57 apex-node7 sshd[1965]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:57 apex-node7 sshd[1967]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:53:59 apex-node7 sshd[1967]: Failed password for s.lane from 172.16.19.10 port 38848 ssh2
+Apr 24 13:53:59 apex-node7 sshd[1967]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:53:59 apex-node7 sshd[1969]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:01 apex-node7 sshd[1969]: Failed password for s.lane from 172.16.19.10 port 38850 ssh2
+Apr 24 13:54:01 apex-node7 sshd[1969]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:01 apex-node7 sshd[1971]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:04 apex-node7 sshd[1971]: Failed password for s.lane from 172.16.19.10 port 38862 ssh2
+Apr 24 13:54:04 apex-node7 sshd[1971]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:04 apex-node7 sshd[1973]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:06 apex-node7 sshd[1973]: Failed password for s.lane from 172.16.19.10 port 60240 ssh2
+Apr 24 13:54:06 apex-node7 sshd[1973]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:06 apex-node7 sshd[1975]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:08 apex-node7 sshd[1975]: Failed password for s.lane from 172.16.19.10 port 60256 ssh2
+Apr 24 13:54:08 apex-node7 sshd[1975]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:08 apex-node7 sshd[1977]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:10 apex-node7 sshd[1977]: Failed password for s.lane from 172.16.19.10 port 60258 ssh2
+Apr 24 13:54:10 apex-node7 sshd[1977]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:10 apex-node7 sshd[1980]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:13 apex-node7 sshd[1980]: Failed password for s.lane from 172.16.19.10 port 60272 ssh2
+Apr 24 13:54:13 apex-node7 sshd[1980]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:13 apex-node7 sshd[1982]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:15 apex-node7 sshd[1982]: Failed password for s.lane from 172.16.19.10 port 38740 ssh2
+Apr 24 13:54:16 apex-node7 sshd[1982]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:16 apex-node7 sshd[1984]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:17 apex-node7 sshd[1984]: Failed password for s.lane from 172.16.19.10 port 38756 ssh2
+Apr 24 13:54:17 apex-node7 sshd[1984]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:18 apex-node7 sshd[1987]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:19 apex-node7 sshd[1987]: Failed password for s.lane from 172.16.19.10 port 38758 ssh2
+Apr 24 13:54:20 apex-node7 sshd[1987]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:20 apex-node7 sshd[1989]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:21 apex-node7 sshd[1989]: Failed password for s.lane from 172.16.19.10 port 38768 ssh2
+Apr 24 13:54:22 apex-node7 sshd[1989]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:22 apex-node7 sshd[1991]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:24 apex-node7 sshd[1991]: Failed password for s.lane from 172.16.19.10 port 60304 ssh2
+Apr 24 13:54:24 apex-node7 sshd[1991]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:24 apex-node7 sshd[1993]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:27 apex-node7 sshd[1993]: Failed password for s.lane from 172.16.19.10 port 60306 ssh2
+Apr 24 13:54:27 apex-node7 sshd[1993]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:27 apex-node7 sshd[1995]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:28 apex-node7 sshd[1995]: Failed password for s.lane from 172.16.19.10 port 60318 ssh2
+Apr 24 13:54:28 apex-node7 sshd[1995]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:28 apex-node7 sshd[1997]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:30 apex-node7 sshd[1997]: Failed password for s.lane from 172.16.19.10 port 60324 ssh2
+Apr 24 13:54:30 apex-node7 sshd[1997]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:30 apex-node7 sshd[1999]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:32 apex-node7 sshd[1999]: Failed password for s.lane from 172.16.19.10 port 60336 ssh2
+Apr 24 13:54:32 apex-node7 sshd[1999]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:32 apex-node7 sshd[2001]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:34 apex-node7 sshd[2001]: Failed password for s.lane from 172.16.19.10 port 55594 ssh2
+Apr 24 13:54:34 apex-node7 sshd[2001]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:34 apex-node7 sshd[2003]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:36 apex-node7 sshd[2003]: Failed password for s.lane from 172.16.19.10 port 55600 ssh2
+Apr 24 13:54:36 apex-node7 sshd[2003]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:37 apex-node7 sshd[2005]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:39 apex-node7 sshd[2005]: Failed password for s.lane from 172.16.19.10 port 55606 ssh2
+Apr 24 13:54:39 apex-node7 sshd[2005]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:39 apex-node7 sshd[2007]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:40 apex-node7 sshd[2007]: Failed password for s.lane from 172.16.19.10 port 55622 ssh2
+Apr 24 13:54:40 apex-node7 sshd[2007]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:40 apex-node7 sshd[2009]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:42 apex-node7 sshd[2009]: Failed password for s.lane from 172.16.19.10 port 55624 ssh2
+Apr 24 13:54:42 apex-node7 sshd[2009]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:43 apex-node7 sshd[2011]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:44 apex-node7 sshd[2011]: Failed password for s.lane from 172.16.19.10 port 56276 ssh2
+Apr 24 13:54:44 apex-node7 sshd[2011]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:44 apex-node7 sshd[2013]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:46 apex-node7 sshd[2013]: Failed password for s.lane from 172.16.19.10 port 56292 ssh2
+Apr 24 13:54:46 apex-node7 sshd[2013]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:46 apex-node7 sshd[2015]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:48 apex-node7 sshd[2015]: Failed password for s.lane from 172.16.19.10 port 56302 ssh2
+Apr 24 13:54:48 apex-node7 sshd[2015]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:48 apex-node7 sshd[2017]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:50 apex-node7 sshd[2017]: Failed password for s.lane from 172.16.19.10 port 56310 ssh2
+Apr 24 13:54:51 apex-node7 sshd[2017]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:51 apex-node7 sshd[2019]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:52 apex-node7 sshd[2019]: Failed password for s.lane from 172.16.19.10 port 56314 ssh2
+Apr 24 13:54:52 apex-node7 sshd[2019]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:52 apex-node7 sshd[2022]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:54 apex-node7 sshd[2022]: Failed password for s.lane from 172.16.19.10 port 38492 ssh2
+Apr 24 13:54:54 apex-node7 sshd[2022]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:54 apex-node7 sshd[2025]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:56 apex-node7 sshd[2025]: Failed password for s.lane from 172.16.19.10 port 38506 ssh2
+Apr 24 13:54:56 apex-node7 sshd[2025]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:56 apex-node7 sshd[2028]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:57 apex-node7 sshd[2028]: Failed password for s.lane from 172.16.19.10 port 38520 ssh2
+Apr 24 13:54:58 apex-node7 sshd[2028]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:54:58 apex-node7 sshd[2030]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:54:59 apex-node7 sshd[2030]: Failed password for s.lane from 172.16.19.10 port 38522 ssh2
+Apr 24 13:54:59 apex-node7 sshd[2030]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:00 apex-node7 sshd[2032]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:02 apex-node7 sshd[2032]: Failed password for s.lane from 172.16.19.10 port 38530 ssh2
+Apr 24 13:55:02 apex-node7 sshd[2032]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:02 apex-node7 sshd[2034]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:04 apex-node7 sshd[2034]: Failed password for s.lane from 172.16.19.10 port 48378 ssh2
+Apr 24 13:55:04 apex-node7 sshd[2034]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:04 apex-node7 sshd[2036]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:06 apex-node7 sshd[2036]: Failed password for s.lane from 172.16.19.10 port 48390 ssh2
+Apr 24 13:55:06 apex-node7 sshd[2036]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:06 apex-node7 sshd[2038]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:08 apex-node7 sshd[2038]: Failed password for s.lane from 172.16.19.10 port 48392 ssh2
+Apr 24 13:55:08 apex-node7 sshd[2038]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:08 apex-node7 sshd[2040]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:10 apex-node7 sshd[2040]: Failed password for s.lane from 172.16.19.10 port 48406 ssh2
+Apr 24 13:55:10 apex-node7 sshd[2040]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:10 apex-node7 sshd[2042]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:12 apex-node7 sshd[2042]: Failed password for s.lane from 172.16.19.10 port 48422 ssh2
+Apr 24 13:55:12 apex-node7 sshd[2042]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:12 apex-node7 sshd[2044]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:14 apex-node7 sshd[2044]: Failed password for s.lane from 172.16.19.10 port 57250 ssh2
+Apr 24 13:55:14 apex-node7 sshd[2044]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:14 apex-node7 sshd[2046]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:16 apex-node7 sshd[2046]: Failed password for s.lane from 172.16.19.10 port 57262 ssh2
+Apr 24 13:55:16 apex-node7 sshd[2046]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:16 apex-node7 sshd[2048]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:18 apex-node7 sshd[2048]: Failed password for s.lane from 172.16.19.10 port 57272 ssh2
+Apr 24 13:55:18 apex-node7 sshd[2048]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:18 apex-node7 sshd[2050]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:20 apex-node7 sshd[2050]: Failed password for s.lane from 172.16.19.10 port 57286 ssh2
+Apr 24 13:55:20 apex-node7 sshd[2050]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:20 apex-node7 sshd[2052]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:22 apex-node7 sshd[2052]: Failed password for s.lane from 172.16.19.10 port 57300 ssh2
+Apr 24 13:55:22 apex-node7 sshd[2052]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:22 apex-node7 sshd[2054]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:24 apex-node7 sshd[2054]: Failed password for s.lane from 172.16.19.10 port 35988 ssh2
+Apr 24 13:55:24 apex-node7 sshd[2054]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:24 apex-node7 sshd[2056]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:26 apex-node7 sshd[2056]: Failed password for s.lane from 172.16.19.10 port 35992 ssh2
+Apr 24 13:55:26 apex-node7 sshd[2056]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:26 apex-node7 sshd[2058]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:28 apex-node7 sshd[2058]: Failed password for s.lane from 172.16.19.10 port 36002 ssh2
+Apr 24 13:55:28 apex-node7 sshd[2058]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:28 apex-node7 sshd[2060]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:30 apex-node7 sshd[2060]: Failed password for s.lane from 172.16.19.10 port 36010 ssh2
+Apr 24 13:55:30 apex-node7 sshd[2060]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:30 apex-node7 sshd[2062]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:32 apex-node7 sshd[2062]: Failed password for s.lane from 172.16.19.10 port 36014 ssh2
+Apr 24 13:55:32 apex-node7 sshd[2062]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:32 apex-node7 sshd[2064]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:34 apex-node7 sshd[2064]: Failed password for s.lane from 172.16.19.10 port 36120 ssh2
+Apr 24 13:55:34 apex-node7 sshd[2064]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:34 apex-node7 sshd[2066]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:36 apex-node7 sshd[2066]: Failed password for s.lane from 172.16.19.10 port 36126 ssh2
+Apr 24 13:55:36 apex-node7 sshd[2066]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:36 apex-node7 sshd[2068]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:38 apex-node7 sshd[2068]: Failed password for s.lane from 172.16.19.10 port 36130 ssh2
+Apr 24 13:55:38 apex-node7 sshd[2068]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:39 apex-node7 sshd[2070]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:40 apex-node7 sshd[2070]: Failed password for s.lane from 172.16.19.10 port 36144 ssh2
+Apr 24 13:55:40 apex-node7 sshd[2070]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:40 apex-node7 sshd[2072]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:42 apex-node7 sshd[2072]: Failed password for s.lane from 172.16.19.10 port 36150 ssh2
+Apr 24 13:55:42 apex-node7 sshd[2072]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:42 apex-node7 sshd[2074]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:44 apex-node7 sshd[2074]: Failed password for s.lane from 172.16.19.10 port 41480 ssh2
+Apr 24 13:55:44 apex-node7 sshd[2074]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:44 apex-node7 sshd[2076]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:46 apex-node7 sshd[2076]: Failed password for s.lane from 172.16.19.10 port 41484 ssh2
+Apr 24 13:55:46 apex-node7 sshd[2076]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:47 apex-node7 sshd[2078]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:48 apex-node7 sshd[2078]: Failed password for s.lane from 172.16.19.10 port 41492 ssh2
+Apr 24 13:55:48 apex-node7 sshd[2078]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:49 apex-node7 sshd[2080]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:50 apex-node7 sshd[2080]: Failed password for s.lane from 172.16.19.10 port 41506 ssh2
+Apr 24 13:55:50 apex-node7 sshd[2080]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:51 apex-node7 sshd[2082]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:52 apex-node7 sshd[2082]: Failed password for s.lane from 172.16.19.10 port 41508 ssh2
+Apr 24 13:55:52 apex-node7 sshd[2082]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:52 apex-node7 sshd[2084]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:54 apex-node7 sshd[2084]: Failed password for s.lane from 172.16.19.10 port 39622 ssh2
+Apr 24 13:55:54 apex-node7 sshd[2084]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:54 apex-node7 sshd[2086]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:57 apex-node7 sshd[2086]: Failed password for s.lane from 172.16.19.10 port 39624 ssh2
+Apr 24 13:55:57 apex-node7 sshd[2086]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:57 apex-node7 sshd[2088]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:55:59 apex-node7 sshd[2088]: Failed password for s.lane from 172.16.19.10 port 39634 ssh2
+Apr 24 13:55:59 apex-node7 sshd[2088]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:55:59 apex-node7 sshd[2090]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:01 apex-node7 sshd[2090]: Failed password for s.lane from 172.16.19.10 port 39638 ssh2
+Apr 24 13:56:01 apex-node7 sshd[2090]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:01 apex-node7 sshd[2092]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:03 apex-node7 sshd[2092]: Failed password for s.lane from 172.16.19.10 port 39654 ssh2
+Apr 24 13:56:03 apex-node7 sshd[2092]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:04 apex-node7 sshd[2094]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:06 apex-node7 sshd[2094]: Failed password for s.lane from 172.16.19.10 port 54752 ssh2
+Apr 24 13:56:06 apex-node7 sshd[2094]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:06 apex-node7 sshd[2096]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:08 apex-node7 sshd[2096]: Failed password for s.lane from 172.16.19.10 port 54768 ssh2
+Apr 24 13:56:08 apex-node7 sshd[2096]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:08 apex-node7 sshd[2099]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:10 apex-node7 sshd[2099]: Failed password for s.lane from 172.16.19.10 port 54780 ssh2
+Apr 24 13:56:10 apex-node7 sshd[2099]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:10 apex-node7 sshd[2101]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:12 apex-node7 sshd[2101]: Failed password for s.lane from 172.16.19.10 port 54796 ssh2
+Apr 24 13:56:13 apex-node7 sshd[2101]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:13 apex-node7 sshd[2103]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:15 apex-node7 sshd[2103]: Failed password for s.lane from 172.16.19.10 port 56006 ssh2
+Apr 24 13:56:15 apex-node7 sshd[2103]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:15 apex-node7 sshd[2105]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:17 apex-node7 sshd[2105]: Failed password for s.lane from 172.16.19.10 port 56012 ssh2
+Apr 24 13:56:17 apex-node7 sshd[2105]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:18 apex-node7 sshd[2107]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:19 apex-node7 sshd[2107]: Failed password for s.lane from 172.16.19.10 port 56020 ssh2
+Apr 24 13:56:19 apex-node7 sshd[2107]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:19 apex-node7 sshd[2109]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:21 apex-node7 sshd[2109]: Failed password for s.lane from 172.16.19.10 port 56030 ssh2
+Apr 24 13:56:22 apex-node7 sshd[2109]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:22 apex-node7 sshd[2111]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:24 apex-node7 sshd[2111]: Failed password for s.lane from 172.16.19.10 port 44978 ssh2
+Apr 24 13:56:24 apex-node7 sshd[2111]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:24 apex-node7 sshd[2113]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:26 apex-node7 sshd[2113]: Failed password for s.lane from 172.16.19.10 port 44980 ssh2
+Apr 24 13:56:26 apex-node7 sshd[2113]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:26 apex-node7 sshd[2115]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:28 apex-node7 sshd[2115]: Failed password for s.lane from 172.16.19.10 port 44996 ssh2
+Apr 24 13:56:29 apex-node7 sshd[2115]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:29 apex-node7 sshd[2117]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:30 apex-node7 sshd[2117]: Failed password for s.lane from 172.16.19.10 port 45002 ssh2
+Apr 24 13:56:31 apex-node7 sshd[2117]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:31 apex-node7 sshd[2119]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:33 apex-node7 sshd[2119]: Failed password for s.lane from 172.16.19.10 port 45018 ssh2
+Apr 24 13:56:33 apex-node7 sshd[2119]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:33 apex-node7 sshd[2121]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:35 apex-node7 sshd[2121]: Failed password for s.lane from 172.16.19.10 port 60924 ssh2
+Apr 24 13:56:35 apex-node7 sshd[2121]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:35 apex-node7 sshd[2123]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:36 apex-node7 sshd[2123]: Failed password for s.lane from 172.16.19.10 port 60926 ssh2
+Apr 24 13:56:37 apex-node7 sshd[2123]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:37 apex-node7 sshd[2125]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:39 apex-node7 sshd[2125]: Failed password for s.lane from 172.16.19.10 port 60942 ssh2
+Apr 24 13:56:39 apex-node7 sshd[2125]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:39 apex-node7 sshd[2127]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:41 apex-node7 sshd[2127]: Failed password for s.lane from 172.16.19.10 port 60946 ssh2
+Apr 24 13:56:41 apex-node7 sshd[2127]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:42 apex-node7 sshd[2129]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:43 apex-node7 sshd[2129]: Failed password for s.lane from 172.16.19.10 port 60958 ssh2
+Apr 24 13:56:43 apex-node7 sshd[2129]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:43 apex-node7 sshd[2131]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:45 apex-node7 sshd[2131]: Failed password for s.lane from 172.16.19.10 port 54952 ssh2
+Apr 24 13:56:45 apex-node7 sshd[2131]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:46 apex-node7 sshd[2134]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:48 apex-node7 sshd[2134]: Failed password for s.lane from 172.16.19.10 port 54964 ssh2
+Apr 24 13:56:48 apex-node7 sshd[2134]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:48 apex-node7 sshd[2136]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:50 apex-node7 sshd[2136]: Failed password for s.lane from 172.16.19.10 port 54970 ssh2
+Apr 24 13:56:50 apex-node7 sshd[2136]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:51 apex-node7 sshd[2138]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:53 apex-node7 sshd[2138]: Failed password for s.lane from 172.16.19.10 port 54982 ssh2
+Apr 24 13:56:53 apex-node7 sshd[2138]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:53 apex-node7 sshd[2142]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:55 apex-node7 sshd[2142]: Failed password for s.lane from 172.16.19.10 port 49400 ssh2
+Apr 24 13:56:55 apex-node7 sshd[2142]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:55 apex-node7 sshd[2144]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:57 apex-node7 sshd[2144]: Failed password for s.lane from 172.16.19.10 port 49414 ssh2
+Apr 24 13:56:57 apex-node7 sshd[2144]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:56:57 apex-node7 sshd[2147]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:56:59 apex-node7 sshd[2147]: Failed password for s.lane from 172.16.19.10 port 49424 ssh2
+Apr 24 13:57:00 apex-node7 sshd[2147]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:00 apex-node7 sshd[2149]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:01 apex-node7 sshd[2149]: Failed password for s.lane from 172.16.19.10 port 49432 ssh2
+Apr 24 13:57:01 apex-node7 sshd[2149]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:02 apex-node7 sshd[2151]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:04 apex-node7 sshd[2151]: Failed password for s.lane from 172.16.19.10 port 49448 ssh2
+Apr 24 13:57:04 apex-node7 sshd[2151]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:04 apex-node7 sshd[2153]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:06 apex-node7 sshd[2153]: Failed password for s.lane from 172.16.19.10 port 42976 ssh2
+Apr 24 13:57:06 apex-node7 sshd[2153]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:07 apex-node7 sshd[2156]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:09 apex-node7 sshd[2156]: Failed password for s.lane from 172.16.19.10 port 42986 ssh2
+Apr 24 13:57:09 apex-node7 sshd[2156]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:09 apex-node7 sshd[2158]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:11 apex-node7 sshd[2158]: Failed password for s.lane from 172.16.19.10 port 42988 ssh2
+Apr 24 13:57:12 apex-node7 sshd[2158]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:12 apex-node7 sshd[2160]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:13 apex-node7 sshd[2160]: Failed password for s.lane from 172.16.19.10 port 60834 ssh2
+Apr 24 13:57:13 apex-node7 sshd[2160]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:14 apex-node7 sshd[2162]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:16 apex-node7 sshd[2162]: Failed password for s.lane from 172.16.19.10 port 60836 ssh2
+Apr 24 13:57:16 apex-node7 sshd[2162]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:16 apex-node7 sshd[2164]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:19 apex-node7 sshd[2164]: Failed password for s.lane from 172.16.19.10 port 60844 ssh2
+Apr 24 13:57:19 apex-node7 sshd[2164]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:19 apex-node7 sshd[2166]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:21 apex-node7 sshd[2166]: Failed password for s.lane from 172.16.19.10 port 60848 ssh2
+Apr 24 13:57:21 apex-node7 sshd[2166]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:21 apex-node7 sshd[2168]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:23 apex-node7 sshd[2168]: Failed password for s.lane from 172.16.19.10 port 60850 ssh2
+Apr 24 13:57:24 apex-node7 sshd[2168]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:24 apex-node7 sshd[2170]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:25 apex-node7 sshd[2170]: Failed password for s.lane from 172.16.19.10 port 51692 ssh2
+Apr 24 13:57:25 apex-node7 sshd[2170]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:26 apex-node7 sshd[2172]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:28 apex-node7 sshd[2172]: Failed password for s.lane from 172.16.19.10 port 51708 ssh2
+Apr 24 13:57:28 apex-node7 sshd[2172]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:28 apex-node7 sshd[2174]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:31 apex-node7 sshd[2174]: Failed password for s.lane from 172.16.19.10 port 51720 ssh2
+Apr 24 13:57:31 apex-node7 sshd[2174]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:31 apex-node7 sshd[2176]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:33 apex-node7 sshd[2176]: Failed password for s.lane from 172.16.19.10 port 51734 ssh2
+Apr 24 13:57:33 apex-node7 sshd[2176]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:33 apex-node7 sshd[2178]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:36 apex-node7 sshd[2178]: Failed password for s.lane from 172.16.19.10 port 54530 ssh2
+Apr 24 13:57:36 apex-node7 sshd[2178]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:36 apex-node7 sshd[2180]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:37 apex-node7 sshd[2180]: Failed password for s.lane from 172.16.19.10 port 54536 ssh2
+Apr 24 13:57:38 apex-node7 sshd[2180]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:38 apex-node7 sshd[2182]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:40 apex-node7 sshd[2182]: Failed password for s.lane from 172.16.19.10 port 54550 ssh2
+Apr 24 13:57:40 apex-node7 sshd[2182]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:40 apex-node7 sshd[2184]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:42 apex-node7 sshd[2184]: Failed password for s.lane from 172.16.19.10 port 54564 ssh2
+Apr 24 13:57:42 apex-node7 sshd[2184]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:43 apex-node7 sshd[2186]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:45 apex-node7 sshd[2186]: Failed password for s.lane from 172.16.19.10 port 53632 ssh2
+Apr 24 13:57:45 apex-node7 sshd[2186]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:45 apex-node7 sshd[2188]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:47 apex-node7 sshd[2188]: Failed password for s.lane from 172.16.19.10 port 53648 ssh2
+Apr 24 13:57:47 apex-node7 sshd[2188]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:48 apex-node7 sshd[2190]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:49 apex-node7 sshd[2190]: Failed password for s.lane from 172.16.19.10 port 53664 ssh2
+Apr 24 13:57:49 apex-node7 sshd[2190]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:49 apex-node7 sshd[2192]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:51 apex-node7 sshd[2192]: Failed password for s.lane from 172.16.19.10 port 53680 ssh2
+Apr 24 13:57:52 apex-node7 sshd[2192]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:52 apex-node7 sshd[2195]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:54 apex-node7 sshd[2195]: Failed password for s.lane from 172.16.19.10 port 39576 ssh2
+Apr 24 13:57:54 apex-node7 sshd[2195]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:54 apex-node7 sshd[2197]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:56 apex-node7 sshd[2197]: Failed password for s.lane from 172.16.19.10 port 39582 ssh2
+Apr 24 13:57:56 apex-node7 sshd[2197]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:57 apex-node7 sshd[2199]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:57:59 apex-node7 sshd[2199]: Failed password for s.lane from 172.16.19.10 port 39590 ssh2
+Apr 24 13:57:59 apex-node7 sshd[2199]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:57:59 apex-node7 sshd[2201]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:58:02 apex-node7 sshd[2201]: Failed password for s.lane from 172.16.19.10 port 39602 ssh2
+Apr 24 13:58:02 apex-node7 sshd[2201]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:58:02 apex-node7 sshd[2203]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:58:04 apex-node7 sshd[2203]: Failed password for s.lane from 172.16.19.10 port 57454 ssh2
+Apr 24 13:58:04 apex-node7 sshd[2203]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:58:04 apex-node7 sshd[2205]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:58:07 apex-node7 sshd[2205]: Failed password for s.lane from 172.16.19.10 port 57456 ssh2
+Apr 24 13:58:07 apex-node7 sshd[2205]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:58:07 apex-node7 sshd[2207]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:58:09 apex-node7 sshd[2207]: Failed password for s.lane from 172.16.19.10 port 57464 ssh2
+Apr 24 13:58:09 apex-node7 sshd[2207]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:58:09 apex-node7 sshd[2209]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=s.lane
+Apr 24 13:58:11 apex-node7 sshd[2209]: Failed password for s.lane from 172.16.19.10 port 57472 ssh2
+Apr 24 13:58:12 apex-node7 sshd[2209]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 13:58:12 apex-node7 sshd[2211]: Accepted password for s.lane from 172.16.19.10 port 57296 ssh2
+Apr 24 13:58:12 apex-node7 sshd[2211]: pam_unix(sshd:session): session opened for user s.lane by (uid=0)
+Apr 24 13:58:12 apex-node7 sshd[2211]: pam_unix(sshd:session): session closed for user s.lane
+Apr 24 14:05:15 apex-node7 login[1650]: pam_unix(login:session): session opened for user s.lane by LOGIN(uid=0)
+Apr 24 14:06:32 apex-node7 sshd[2267]: Connection closed by 172.16.19.10 [preauth]
+Apr 24 14:06:42 apex-node7 sshd[2269]: Accepted password for s.lane from 172.16.19.10 port 55672 ssh2
+Apr 24 14:06:42 apex-node7 sshd[2269]: pam_unix(sshd:session): session opened for user s.lane by (uid=0)
+Apr 24 14:17:01 apex-node7 CRON[2310]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 14:17:01 apex-node7 CRON[2310]: pam_unix(cron:session): session closed for user root
+Apr 24 14:41:18 apex-node7 sshd[2326]: Accepted password for s.lane from 172.16.19.200 port 60485 ssh2
+Apr 24 14:41:18 apex-node7 sshd[2326]: pam_unix(sshd:session): session opened for user s.lane by (uid=0)
+Apr 24 14:45:03 apex-node7 sudo:   s.lane : user NOT in sudoers ; TTY=pts/5 ; PWD=/home/s.lane ; USER=root ; COMMAND=/bin/grep sshd /var/log/auth.log
+Apr 24 14:49:58 apex-node7 sudo: pam_unix(sudo:auth): authentication failure; logname=s.lane uid=1126 euid=0 tty=/dev/pts/5 ruser=s.lane rhost=  user=s.lane
+Apr 24 14:58:58 apex-node7 sudo:   s.lane : user NOT in sudoers ; TTY=pts/5 ; PWD=/home/s.lane ; USER=root ; COMMAND=/bin/cat /var/log/auth.log
+Apr 24 14:59:48 apex-node7 sshd[2378]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.200  user=root
+Apr 24 14:59:50 apex-node7 sshd[2378]: Failed password for root from 172.16.19.200 port 60498 ssh2
+Apr 24 15:00:08 apex-node7 sshd[2378]: message repeated 2 times: [ Failed password for root from 172.16.19.200 port 60498 ssh2]
+Apr 24 15:00:08 apex-node7 sshd[2378]: Connection closed by 172.16.19.200 [preauth]
+Apr 24 15:00:08 apex-node7 sshd[2378]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.200  user=root
+Apr 24 15:04:26 apex-node7 sshd[2287]: Received disconnect from 172.16.19.10: 11: disconnected by user
+Apr 24 15:04:26 apex-node7 sshd[2269]: pam_unix(sshd:session): session closed for user s.lane
+Apr 24 15:04:26 apex-node7 sshd[2344]: Received disconnect from 172.16.19.200: 11: disconnected by user
+Apr 24 15:04:26 apex-node7 sshd[2326]: pam_unix(sshd:session): session closed for user s.lane
+Apr 24 15:05:02 apex-node7 sshd[2380]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.19.10  user=root
+Apr 24 15:05:03 apex-node7 sshd[2380]: Failed password for root from 172.16.19.10 port 32804 ssh2
+Apr 24 15:05:25 apex-node7 sshd[2380]: Accepted password for root from 172.16.19.10 port 32804 ssh2
+Apr 24 15:05:25 apex-node7 sshd[2380]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Apr 24 15:05:45 apex-node7 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/cat /var/log/auth.log
+Apr 24 15:05:45 apex-node7 sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+debug1: OpenSSH_10.2p1 Debian-2, OpenSSL 3.5.4 30 Sep 2025
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: Reading configuration data /etc/ssh/ssh_config.d/20-systemd-ssh-proxy.conf
+debug1: /etc/ssh/ssh_config line 21: Applying options for *
+debug1: Connecting to 172.16.19.200 [172.16.19.200] port 22.
+debug1: Connection established.
+debug1: no pubkey loaded from /home/kali/.ssh/id_rsa
+debug1: identity file /home/kali/.ssh/id_rsa type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_rsa
+debug1: no pubkey loaded from /home/kali/.ssh/id_ecdsa
+debug1: identity file /home/kali/.ssh/id_ecdsa type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_ecdsa
+debug1: no pubkey loaded from /home/kali/.ssh/id_ecdsa_sk
+debug1: identity file /home/kali/.ssh/id_ecdsa_sk type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_ecdsa_sk
+debug1: no pubkey loaded from /home/kali/.ssh/id_ed25519
+debug1: identity file /home/kali/.ssh/id_ed25519 type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_ed25519
+debug1: no pubkey loaded from /home/kali/.ssh/id_ed25519_sk
+debug1: identity file /home/kali/.ssh/id_ed25519_sk type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_ed25519_sk
+debug1: Local version string SSH-2.0-OpenSSH_10.2p1 Debian-2
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13
+debug1: compat_banner: match: OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13 pat OpenSSH_6.6.1* compat 0x04000002
+debug1: Authenticating to 172.16.19.200:22 as 's.lane'
+debug1: load_hostkeys: fopen /home/kali/.ssh/known_hosts2: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ssh-ed25519
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: SSH2_MSG_KEX_ECDH_REPLY received
+debug1: Server host key: ssh-ed25519 SHA256:Rpy8shmBT8uIqZeMsZCG6N5gHXDNSWQ0tEgSgF7t/SM
+debug1: load_hostkeys: fopen /home/kali/.ssh/known_hosts2: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+debug1: hostkeys_find_by_key_cb: found matching key in ~/.ssh/known_hosts:1
+debug1: hostkeys_find_by_key_hostfile: hostkeys file /home/kali/.ssh/known_hosts2 does not exist
+debug1: hostkeys_find_by_key_hostfile: hostkeys file /etc/ssh/ssh_known_hosts does not exist
+debug1: hostkeys_find_by_key_hostfile: hostkeys file /etc/ssh/ssh_known_hosts2 does not exist
+The authenticity of host '172.16.19.200 (172.16.19.200)' can't be established.
+ED25519 key fingerprint is: SHA256:Rpy8shmBT8uIqZeMsZCG6N5gHXDNSWQ0tEgSgF7t/SM
+This host key is known by the following other names/addresses:
+    ~/.ssh/known_hosts:1: [hashed name]
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '172.16.19.200' (ED25519) to the list of known hosts.
+debug1: rekey out after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey in after 134217728 blocks
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: get_agent_identities: bound agent to hostkey
+debug1: get_agent_identities: ssh_fetch_identitylist: agent contains no identities
+debug1: Will attempt key: /home/kali/.ssh/id_rsa 
+debug1: Will attempt key: /home/kali/.ssh/id_ecdsa 
+debug1: Will attempt key: /home/kali/.ssh/id_ecdsa_sk 
+debug1: Will attempt key: /home/kali/.ssh/id_ed25519 
+debug1: Will attempt key: /home/kali/.ssh/id_ed25519_sk 
+debug1: Trying private key: /home/kali/.ssh/id_rsa
+debug1: Trying private key: /home/kali/.ssh/id_ecdsa
+debug1: Trying private key: /home/kali/.ssh/id_ecdsa_sk
+debug1: Trying private key: /home/kali/.ssh/id_ed25519
+debug1: Trying private key: /home/kali/.ssh/id_ed25519_sk
+debug1: Next authentication method: password
+s.lane@172.16.19.200's password: 
+Authenticated to 172.16.19.200 ([172.16.19.200]:22) using "password".
+debug1: channel 0: new session [client-session] (inactive timeout: 0)
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: filesystem
+debug1: Sending environment.
+debug1: channel 0: setting env COLORTERM = "truecolor"
+debug1: channel 0: setting env LANG = "en_GB.UTF-8"
+Welcome to Ubuntu 14.04 LTS (GNU/Linux 3.13.0-24-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+ssh -v s.lane@172.16.19.200
+debug1: OpenSSH_10.2p1 Debian-2, OpenSSL 3.5.4 30 Sep 2025
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: Reading configuration data /etc/ssh/ssh_config.d/20-systemd-ssh-proxy.conf
+debug1: /etc/ssh/ssh_config line 21: Applying options for *
+debug1: Connecting to 172.16.19.200 [172.16.19.200] port 22.
+debug1: Connection established.
+debug1: no pubkey loaded from /home/kali/.ssh/id_rsa
+debug1: identity file /home/kali/.ssh/id_rsa type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_rsa
+debug1: no pubkey loaded from /home/kali/.ssh/id_ecdsa
+debug1: identity file /home/kali/.ssh/id_ecdsa type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_ecdsa
+debug1: no pubkey loaded from /home/kali/.ssh/id_ecdsa_sk
+debug1: identity file /home/kali/.ssh/id_ecdsa_sk type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_ecdsa_sk
+debug1: no pubkey loaded from /home/kali/.ssh/id_ed25519
+debug1: identity file /home/kali/.ssh/id_ed25519 type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_ed25519
+debug1: no pubkey loaded from /home/kali/.ssh/id_ed25519_sk
+debug1: identity file /home/kali/.ssh/id_ed25519_sk type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_ed25519_sk
+debug1: Local version string SSH-2.0-OpenSSH_10.2p1 Debian-2
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13
+debug1: compat_banner: match: OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13 pat OpenSSH_6.6.1* compat 0x04000002
+debug1: Authenticating to 172.16.19.200:22 as 's.lane'
+debug1: load_hostkeys: fopen /home/kali/.ssh/known_hosts2: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ssh-ed25519
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: SSH2_MSG_KEX_ECDH_REPLY received
+debug1: Server host key: ssh-ed25519 SHA256:Rpy8shmBT8uIqZeMsZCG6N5gHXDNSWQ0tEgSgF7t/SM
+debug1: load_hostkeys: fopen /home/kali/.ssh/known_hosts2: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+debug1: hostkeys_find_by_key_cb: found matching key in ~/.ssh/known_hosts:1
+debug1: hostkeys_find_by_key_hostfile: hostkeys file /home/kali/.ssh/known_hosts2 does not exist
+debug1: hostkeys_find_by_key_hostfile: hostkeys file /etc/ssh/ssh_known_hosts does not exist
+debug1: hostkeys_find_by_key_hostfile: hostkeys file /etc/ssh/ssh_known_hosts2 does not exist
+The authenticity of host '172.16.19.200 (172.16.19.200)' can't be established.
+ED25519 key fingerprint is: SHA256:Rpy8shmBT8uIqZeMsZCG6N5gHXDNSWQ0tEgSgF7t/SM
+This host key is known by the following other names/addresses:
+    ~/.ssh/known_hosts:1: [hashed name]
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+Host key verification failed.
+                                                                             
+┌──(kali㉿Kali)-[~/Documents/benji-protocol-kf4crt-main]
+└─$ ssh -v s.lane@172.16.19.200
+debug1: OpenSSH_10.2p1 Debian-2, OpenSSL 3.5.4 30 Sep 2025
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: Reading configuration data /etc/ssh/ssh_config.d/20-systemd-ssh-proxy.conf
+debug1: /etc/ssh/ssh_config line 21: Applying options for *
+debug1: Connecting to 172.16.19.200 [172.16.19.200] port 22.
+debug1: Connection established.
+debug1: no pubkey loaded from /home/kali/.ssh/id_rsa
+debug1: identity file /home/kali/.ssh/id_rsa type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_rsa
+debug1: no pubkey loaded from /home/kali/.ssh/id_ecdsa
+debug1: identity file /home/kali/.ssh/id_ecdsa type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_ecdsa
+debug1: no pubkey loaded from /home/kali/.ssh/id_ecdsa_sk
+debug1: identity file /home/kali/.ssh/id_ecdsa_sk type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_ecdsa_sk
+debug1: no pubkey loaded from /home/kali/.ssh/id_ed25519
+debug1: identity file /home/kali/.ssh/id_ed25519 type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_ed25519
+debug1: no pubkey loaded from /home/kali/.ssh/id_ed25519_sk
+debug1: identity file /home/kali/.ssh/id_ed25519_sk type -1
+debug1: no identity pubkey loaded from /home/kali/.ssh/id_ed25519_sk
+debug1: Local version string SSH-2.0-OpenSSH_10.2p1 Debian-2
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13
+debug1: compat_banner: match: OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13 pat OpenSSH_6.6.1* compat 0x04000002
+debug1: Authenticating to 172.16.19.200:22 as 's.lane'
+debug1: load_hostkeys: fopen /home/kali/.ssh/known_hosts2: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ssh-ed25519
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: SSH2_MSG_KEX_ECDH_REPLY received
+debug1: Server host key: ssh-ed25519 SHA256:Rpy8shmBT8uIqZeMsZCG6N5gHXDNSWQ0tEgSgF7t/SM
+debug1: load_hostkeys: fopen /home/kali/.ssh/known_hosts2: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts: No such file or directory
+debug1: load_hostkeys: fopen /etc/ssh/ssh_known_hosts2: No such file or directory
+debug1: hostkeys_find_by_key_cb: found matching key in ~/.ssh/known_hosts:1
+debug1: hostkeys_find_by_key_hostfile: hostkeys file /home/kali/.ssh/known_hosts2 does not exist
+debug1: hostkeys_find_by_key_hostfile: hostkeys file /etc/ssh/ssh_known_hosts does not exist
+debug1: hostkeys_find_by_key_hostfile: hostkeys file /etc/ssh/ssh_known_hosts2 does not exist
+The authenticity of host '172.16.19.200 (172.16.19.200)' can't be established.
+ED25519 key fingerprint is: SHA256:Rpy8shmBT8uIqZeMsZCG6N5gHXDNSWQ0tEgSgF7t/SM
+This host key is known by the following other names/addresses:
+    ~/.ssh/known_hosts:1: [hashed name]
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '172.16.19.200' (ED25519) to the list of known hosts.
+debug1: rekey out after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey in after 134217728 blocks
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: get_agent_identities: bound agent to hostkey
+debug1: get_agent_identities: ssh_fetch_identitylist: agent contains no identities
+debug1: Will attempt key: /home/kali/.ssh/id_rsa 
+debug1: Will attempt key: /home/kali/.ssh/id_ecdsa 
+debug1: Will attempt key: /home/kali/.ssh/id_ecdsa_sk 
+debug1: Will attempt key: /home/kali/.ssh/id_ed25519 
+debug1: Will attempt key: /home/kali/.ssh/id_ed25519_sk 
+debug1: Trying private key: /home/kali/.ssh/id_rsa
+debug1: Trying private key: /home/kali/.ssh/id_ecdsa
+debug1: Trying private key: /home/kali/.ssh/id_ecdsa_sk
+debug1: Trying private key: /home/kali/.ssh/id_ed25519
+debug1: Trying private key: /home/kali/.ssh/id_ed25519_sk
+debug1: Next authentication method: password
+s.lane@172.16.19.200's password: 
+Authenticated to 172.16.19.200 ([172.16.19.200]:22) using "password".
+debug1: channel 0: new session [client-session] (inactive timeout: 0)
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: filesystem
+debug1: Sending environment.
+debug1: channel 0: setting env COLORTERM = "truecolor"
+debug1: channel 0: setting env LANG = "en_GB.UTF-8"
+Welcome to Ubuntu 14.04 LTS (GNU/Linux 3.13.0-24-generic x86_64)
+ * Documentation:  https://help.ubuntu.com/
