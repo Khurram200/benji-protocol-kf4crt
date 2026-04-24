@@ -44,10 +44,3 @@ for the solution. Code you cannot explain during the session will be flagged.
 | 5    | Code quality pass                       | "please add comments to the fix.py"                                                         | Added concise explanatory comments around argument handling, action sequencing, and verification reporting.         | Confirmed comments improve readability without changing runtime behavior.                                   |
 
 
----
-
-## Assurance Statement
-
-- All AI-assisted outputs were reviewed and edited before acceptance.
-- I validated command syntax, file paths, and evidence text against my own run outputs.
-- I retained responsibility for final code and documentation quality in this repository.
